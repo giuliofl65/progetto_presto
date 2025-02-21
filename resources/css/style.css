@@ -1,0 +1,915 @@
+:root {
+    --blue: #001d3d;
+    --lightBlue: #003566;
+    --llblue: #1f71bd;
+    --llbluehov: #185995;
+    --yellow: #ffc300;
+    --lightYellow: #ffd60a;
+    --black: #000814;
+    --white: #f6f6f6;
+    --grey: #ededed;
+    --darkGrey: #8f8f8f;
+    --lightBlack: #303030;
+
+    --pink: #ff99c8;
+    --lYellow: #fcf6bd;
+    --lGreenBtn: #87caa0;
+    --lGreen: #d0f4de;
+    --lBlue: #a9def9;
+    --lBlueBtn: #83ccf1;
+    --lBlueHov: #70bee6;
+    --lViolet: #e4c1f9;
+    --lRed: #f95252;
+
+
+}
+
+
+/*=============================================
+=            CSS RESET           =
+=============================================*/
+* {
+    font-family: "Work Sans", serif;
+}
+
+
+/*=============================================
+=            TEXT COLOR CLASSES           =
+=============================================*/
+.c-text-blue {
+    color: var(--blue);
+}
+
+.c-text-lightBlue {
+    color: var(--lightBlue);
+}
+
+.c-text-yellow {
+    color: var(--yellow);
+}
+
+.c-text-lightYellow {
+    color: var(--lightYellow);
+}
+
+.c-text-black {
+    color: var(--black);
+}
+
+.c-text-white {
+    color: var(--white);
+}
+
+.c-text-grey {
+    color: var(--grey);
+}
+
+.c-text-darkGrey {
+    color: var(--darkGrey);
+}
+
+.c-text-lightBlack {
+    color: var(--lightBlack);
+}
+
+.c-text-lViolet {
+    color: var(--lViolet);
+}
+
+.c-text-lRed {
+    color: var(--lRed);
+}
+
+.c-text-pink {
+    color: var(--pink);
+}
+
+.c-text-lBlueHov {
+    color: var(--lBlueHov);
+}
+
+/*=============================================
+=            BACKGROUND COLOR CLASSES           =
+=============================================*/
+.c-bg-blue {
+    background-color: var(--blue);
+}
+
+.c-bg-lightBlue {
+    background-color: var(--lightBlue);
+}
+
+.c-bg-yellow {
+    background-color: var(--yellow);
+}
+
+.c-bg-lightYellow {
+    background-color: var(--lightYellow);
+}
+
+.c-bg-black {
+    background-color: var(--black);
+}
+
+.c-bg-white {
+    background-color: var(--white);
+}
+
+.c-bg-grey {
+    background-color: var(--grey);
+}
+
+.c-bg-darkGrey {
+    background-color: var(--darkGrey);
+}
+
+.c-bg-lightBlack {
+    background-color: var(--lightBlack);
+}
+
+.c-bg-lGreen {
+    background-color: var(--lGreen);
+}
+
+.c-bg-lBlue {
+    background-color: var(--lBlue);
+}
+
+.c-bg-lViolet {
+    background-color: var(--lViolet);
+}
+
+.c-bg-lRed {
+    background-color: var(--lRed);
+}
+
+.c-bg-pink {
+    background-color: var(--pink);
+}
+
+.c-bg-lYellow {
+    background-color: var(--lYellow);
+}
+
+
+/*=============================================
+=            TITLE SYSTEM           =
+=============================================*/
+.logo {
+    font-weight: 600 !important;
+    font-size: 1.2rem !important;
+    color: var(--lightBlack);
+}
+
+.c-nav-text {
+    font-weight: 400 !important;
+    font-size: 0.9rem !important;
+    color: var(--lightBlack);
+}
+
+.c-nav-text:hover {
+    font-weight: 500 !important;
+
+}
+
+.c-card-title {
+    font-weight: 500 !important;
+    font-size: 1.2rem !important;
+    color: var(--lightBlack);
+}
+
+.c-card-category {
+    font-weight: 500 !important;
+    font-size: 0.9rem !important;
+    color: var(--darkGrey);
+}
+
+.c-card-price {
+    font-weight: 500 !important;
+    font-size: 1rem !important;
+    color: var(--lightBlack);
+}
+
+.c-show-title {
+    font-weight: 500 !important;
+    font-size: 2rem !important;
+    color: var(--lightBlack);
+}
+
+.c-show-category {
+    font-weight: 500 !important;
+    font-size: 1rem !important;
+    color: var(--darkGrey);
+}
+
+.c-show-description {
+    font-weight: 500 !important;
+    font-size: 1rem !important;
+    color: var(--lightBlack);
+}
+
+.c-show-price {
+    font-weight: 500 !important;
+    font-size: 1.5rem !important;
+    color: var(--lightBlack);
+}
+
+.c-revisor-title {
+    font-weight: 500 !important;
+    font-size: 1.5rem !important;
+    color: var(--lightBlack);
+    padding-bottom: 12px;
+}
+
+.c-revisor-category {
+    font-weight: 500 !important;
+    font-size: 0.8rem !important;
+    color: var(--darkGrey);
+    padding-bottom: 8px;
+}
+
+.c-revisor-description {
+    font-weight: 500 !important;
+    font-size: 1rem !important;
+    color: var(--lightBlack);
+    padding-bottom: 8px;
+}
+
+.c-revisor-price {
+    font-weight: 500 !important;
+    font-size: 1.5rem !important;
+    color: var(--lightBlack);
+}
+.c-revisor-author {
+    font-weight: 500 !important;
+    font-size: 0.8rem !important;
+    color: var(--lightBlack);
+}
+
+.c-title-banner {
+    font-weight: 600 !important;
+    font-size: 4rem !important;
+    line-height: 75px !important;
+    margin-bottom: 16px !important;
+}
+.c-subtitle-banner {
+    font-weight: 400 !important;
+    font-size: 1.5rem !important;
+}
+
+h1 {
+    font-weight: 600 !important;
+    font-size: 5rem !important;
+    line-height: 75px !important;
+    margin-bottom: 16px !important;
+}
+
+h2 {
+    font-weight: 400 !important;
+    font-size: 1.5rem !important;
+    margin-bottom: 32px !important;
+}
+
+h3 {
+    font-weight: 400 !important;
+    font-size: 1.5rem !important;
+}
+
+h4 {
+    font-weight: 400 !important;
+    font-size: 1rem !important;
+}
+
+section {
+    margin: 24px 0;
+}
+
+.c-section-title {
+    font-weight: 500 !important;
+    font-size: 2rem !important;
+    color: var(--lightBlack);
+}
+
+.c-form-title {
+    font-weight: 500 !important;
+    font-size: 1.4rem !important;
+    color: var(--lightBlack);
+}
+
+.c-footer-title {
+    font-weight: 500 !important;
+    font-size: 1rem !important;
+    color: var(--lightBlack);
+}
+
+.c-footer-text {
+    font-weight: 400 !important;
+    font-size: 0.8rem !important;
+    color: var(--darkGrey);
+}
+
+/* Separatore */
+hr {
+    border-color: var(--lightBlack);
+    border: 0;
+    height: 1.5px;
+    background-color: #ccc;
+    margin: 20px 0;
+}
+
+#showContainer{
+    /* max-width: 50%; */
+    margin-top: 95px !important;
+}
+
+
+/*=============================================
+=            CARD           =
+=============================================*/
+.card {
+    height: 470px;
+}
+
+
+
+/*=============================================
+=            BUTTONS           =
+=============================================*/
+
+/* Bottone principale */
+.c-button-main {
+    background-color: var(--lightBlack);
+    color: var(--white);
+    border: transparent !important;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 16px 32px;
+    margin: 16px 0;
+}
+.c-button-main:hover {
+    background-color: var(--lBlueHov);
+    color: var(--white);
+
+}
+
+.btnAdd {
+    background-color: var(--lBlue);
+    border: solid 2px var(--lightBlack);
+    color: var(--lightBlack);
+    padding: 0px 16px;
+    font-weight: 500 !important;
+    font-size: 0.9rem !important;
+}
+
+.btnRev {
+    background-color: var(--lBlue);
+    border: solid 2px var(--lightBlack);
+    color: var(--lightBlack);
+    padding: 0px 16px;
+    font-weight: 500 !important;
+    font-size: 0.9rem !important;
+}
+
+/* Bottoni create */
+#createButton {
+    color: var(--lightBlack);
+    background-color: var(--lBlueBtn);
+    border: none !important;
+    font-weight: 400;
+    font-size: 1rem !important;
+    padding: 8px 32px;
+}
+
+#createButton:hover {
+    background-color: var(--lBlueHov);
+}
+
+/* Bottoni Accetta e  Rifiuta */
+#btnX:hover{
+    color: var(--lRed);
+}
+
+#btnV:hover{
+    color: var(--lGreenBtn);
+}
+/* Icona notifiche */
+#notificheReview {
+    background-color: var(--lRed);
+    height: 15px;
+    width: 15px;
+    padding: 2px 5px;
+    border-radius: 50%;
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+
+
+
+/* #basic-addon2{
+    background-color: var(--lBlue);
+    color: var(--lightBlack);
+    padding: 4px 16px;
+    font-weight: 500 !important;
+    font-size: 0.9rem !important;
+    margin: 0px;
+} */
+
+
+/* Icone pagina Show */
+#c-show-icon {
+    border: solid 3px transparent !important;
+    padding: 8px;
+    border-radius: 50%;
+    background-color: var(--lightBlack);
+    color: var(--white);
+}
+
+#c-show-icon:hover {
+    border: solid 3px var(--lRed) !important;
+    background-color: var(--white);
+    border-radius: 50%;
+    color: var(--lRed);
+    transition: 50ms ease-in-out;
+}
+
+
+/* Etichetta New */
+#new {
+    position: relative;
+}
+#new2 {
+    position: relative;
+}
+#new::after {
+    /* content: ""; */
+    content: "New";
+    position: absolute;
+    top: 45px;
+    left: 5px;
+    background-color: var(--pink);
+    color: var(--white);
+    padding: 2px 12px;
+    border-radius: 10px;
+}
+#new2::after {
+    /* content: ""; */
+    content: "New";
+    position: absolute;
+    top: 25px;
+    left: 5px;
+    background-color: var(--pink);
+    color: var(--white);
+    padding: 2px 12px;
+    border-radius: 10px;
+}
+
+
+
+/*=============================================
+=            FORM           =
+=============================================*/
+.form {
+    background-color: rgb(250, 250, 250);
+    display: block;
+    padding: 1rem;
+    max-width: 350px;
+    border-radius: 0.5rem;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.form-title {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+    text-align: center;
+    color: #000;
+}
+
+.input-container {
+    position: relative;
+}
+
+.input-container input,
+.form button {
+    outline: none;
+    border: 1px solid #e5e7eb;
+    margin: 8px 0;
+}
+
+.input-container input {
+    background-color: #fff;
+    padding: 1rem;
+    padding-right: 3rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    width: 300px;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.input-container span {
+    display: grid;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    place-content: center;
+}
+
+.input-container span svg {
+    color: #9CA3AF;
+    width: 1rem;
+    height: 1rem;
+}
+
+.submit {
+    display: block;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    background-color: var(--lBlue);
+    color: #ffffff;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+    width: 100%;
+    border-radius: 0.5rem;
+    text-transform: uppercase;
+}
+
+.signup-link {
+    color: #6B7280;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    text-align: center;
+}
+
+.signup-link a {
+    text-decoration: underline;
+}
+
+/* ALLINEAMENTO LINGUE NAVBAR */
+
+.c-language[data-bs-popper] {
+    top: 100% !important; /* Cambia la posizione come desideri */
+    left: -87px;
+    margin-top: var(--bs-dropdown-spacer);
+    /* Aggiungi altre proprietà come necessario */
+}
+
+
+/*=============================================
+=            HEADER          =
+=============================================*/
+.search {
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 70px;
+    background-color: #fff;
+    border-radius: 40px;
+    padding: 10px;
+}
+.search-mobile{
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 54px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 40px;
+    padding: 10px 40px;
+}
+.search_input {
+    color: var(--lightBlack);
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 0;
+    margin-top: 5px;
+    caret-color: transparent;
+    line-height: 40px;
+    transition: width 0.4s linear;
+}
+
+.search .search_input {
+    padding: 0 10px;
+    width: 550px;
+    caret-color: red;
+    transition: width 0.4s linear;
+}
+
+/* .search:hover>.search_icon {
+    background: var(--lYelloy);
+    color: var(--lightBlack);
+} */
+
+.search_icon {
+    height: 50px;
+    width: 50px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: white;
+    background-color: black;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.c-header {
+    height: 50vh;
+    /* background-image: url(/public/media/header-new2-dx.jpg); */
+    background-image: url(/public/media/header-presto3.jpg);
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+.c-lavora-con-noi {
+    height: 60vh;
+    background-image: url(/public/media/lavora-con-noi.jpg);
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+.c-header-article {
+    height: 90vh;
+    /* background-image: url(/public/media/header-new2-dx.jpg); */
+    background-image: linear-gradient(90deg, rgb(255, 255, 255) 15%, rgba(0, 0, 0, 0) 65%), url(/public/media/header-new2-dx.jpg);
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+
+
+.c-img {
+    min-height: 200px;
+    max-height: 700px;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.c-img-2 {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.c-img-3 {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+#c-img-login {
+    position: relative;
+}
+
+#c-img-login::after {
+    content: "Dove i tuoi oggetti trovano nuova vita";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    /* background-color: var(--pink); */
+    color: var(--lightBlack);
+    padding: 2px 12px;
+    border-radius: 10px;
+    z-index: 9999;
+}
+
+
+
+
+/*=============================================
+=            FORM CREATE           =
+=============================================*/
+form input,
+form textarea,
+form select {
+    border: none !important;
+    border-right: solid 3px var(--grey) !important;
+    border-bottom: solid 3px var(--grey) !important;
+    margin-bottom: 36px !important;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: var(--darkGrey) !important;
+    font-size: 0.9rem !important;
+}
+
+.img-preview {
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120px;
+    width: 120px;
+}
+
+
+/*=============================================
+=            SWIPER           =
+=============================================*/
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper {
+    width: 100%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.swiper-slide {
+    background-size: cover;
+    background-position: center;
+}
+
+.mySwiper2 {
+    height: 80%;
+    width: 100%;
+}
+
+.mySwiper {
+    height: 20%;
+    box-sizing: border-box;
+    padding: 10px 0;
+}
+
+.mySwiper .swiper-slide {
+    width: 25%;
+    height: 100%;
+    opacity: 0.4;
+}
+
+.mySwiper .swiper-slide-thumb-active {
+    opacity: 1;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.testH{
+    height: 100%;
+}
+
+
+/*=============================================
+=            BACK TO TOP BUTTON          =
+=============================================*/
+.back-to-top {
+    position: fixed;
+    bottom: 15px;
+    right: 10px;
+    background-color: transparent;
+    color: var(--lightBlack);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 35px;
+    opacity: 0.5;
+    cursor: pointer;
+    display: none;
+    transition: background-color 0.3s;
+}
+
+.back-to-top:hover {
+    color: var(--llbluehov);
+}
+
+/*=============================================
+=            HEIGHT          =
+=============================================*/
+.heightPage {
+min-height: 80vh;
+}
+
+/*=============================================
+=            MEDIA QUERIES MD          =
+=============================================*/
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-weight: 600 !important;
+        font-size: 2.5rem !important;
+        line-height: 40px !important;
+        margin-bottom: 12px !important;
+    }
+
+    h2 {
+        font-weight: 400 !important;
+        font-size: 1.2rem !important;
+        margin-bottom: 32px !important;
+    }
+
+    .c-section-title {
+        font-weight: 500 !important;
+        font-size: 1.5rem !important;
+        color: var(--lightBlack);
+        padding-left: 16px;
+    }
+
+    .c-header {
+        height: 80vh;
+        background-image: url(/public/media/header-presto3.jpg);
+        background-size: cover;
+        background-position: -700px 0px;
+        background-repeat: no-repeat;
+    }
+    .c-lavora-con-noi {
+        height: 80vh;
+        background-image: url(/public/media/lavora-con-noi.jpg);
+        background-size: cover;
+        background-position: -900px 0px;
+        background-repeat: no-repeat;
+    }
+
+    .c-title-banner {
+        font-weight: 600 !important;
+        font-size: 2rem !important;
+        margin-bottom: 16px !important;
+        line-height: 32px !important;
+    }
+
+    .c-subtitle-banner {
+        font-weight: 400 !important;
+        font-size: 1.1rem !important;
+    }
+
+    #notificheReview {
+        background-color: var(--lRed);
+        height: 15px;
+        width: 15px;
+        padding: 2px 5px;
+        margin-left: 6px;
+        margin-top: 4px;
+        border-radius: 50%;
+        font-weight: 400;
+        font-size: 0.8rem;
+        }
+
+        .c-language[data-bs-popper] {
+
+            left: -16px;
+        }
+
+}
+
+/*=============================================
+=            MEDIA QUERIY LG          =
+=============================================*/
+@media screen and (max-width: 800px) {
+
+    .c-lavora-con-noi {
+        height: 80vh;
+        background-image: url(/public/media/lavora-con-noi.jpg);
+        background-size: cover;
+        background-position: -900px 0px;
+        background-repeat: no-repeat;
+        }
+}
+
+/*=============================================
+=            MEDIA QUERIY MD DROPDOWN LINGUE          =
+=============================================*/
+
+@media screen and (min-width: 767px) and (max-width: 991px) {
+
+    .c-language[data-bs-popper] {
+
+        left: -16px;
+    }
+}
