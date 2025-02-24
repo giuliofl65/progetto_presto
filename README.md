@@ -40,39 +40,39 @@ L'applicazione include un set completo di funzionalità, tra cui un'area dedicat
 Segui questi passaggi per clonare e configurare il progetto:
 
 1. Clona il repository:
-   sh
+
    git clone git@github.com:giuliofl65/progetto_presto.git
 
 2. Installa le dipendenze PHP:
-   sh
+
    composer install
 
 3. Crea il file .env e configura il database:
-   sh
+
    cp .env.example .env
 
 4. Genera la chiave dell'applicazione:
-   sh
+
    php artisan key:generate
 
 5. Esegui le migrazioni per creare il database:
-   sh
+
    php artisan migrate
 
 6. Installa le dipendenze JavaScript:
-   sh
+
    npm install
 
 7. Compila i file CSS e JavaScript:
-   sh
+
    npm run dev
 
 8. Avvia il server di sviluppo:
-   sh
+
    php artisan serve
 
 9. Avvia i processi in background per i job della coda:
-   sh
+
    php artisan queue:work
 
 
